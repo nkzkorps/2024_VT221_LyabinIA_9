@@ -2,6 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFile>
+#include <QTextStream>
+#include <QMessageBox>
+#include <QTableWidgetItem>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +21,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void loadData();
+    void saveData();
+
 private:
     Ui::MainWindow *ui;
 };
+
 #endif // MAINWINDOW_H
