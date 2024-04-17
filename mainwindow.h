@@ -24,6 +24,10 @@ public:
 private slots:
     void loadData();
     void saveData();
+    void addStudent();
+    void removeStudent();
+    void addSubject();
+    void removeSubject();
 
 private:
     Ui::MainWindow *ui;

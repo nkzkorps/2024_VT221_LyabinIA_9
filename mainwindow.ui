@@ -46,12 +46,8 @@
      <number>0</number>
     </property>
     <property name="columnCount">
-     <number>5</number>
+     <number>1</number>
     </property>
-    <column/>
-    <column/>
-    <column/>
-    <column/>
     <column/>
    </widget>
    <widget class="QPushButton" name="buttonLoad">
@@ -78,6 +74,58 @@
     </property>
     <property name="text">
      <string>Сохранить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonAddStudent">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>440</y>
+      <width>141</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить студента</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonRemoveStudent">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>470</y>
+      <width>141</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить студента</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonAddSubject">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>440</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить день</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonRemoveSubject">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>470</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить день</string>
     </property>
    </widget>
   </widget>
